@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - Library Management System</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            color: #2c3e50;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Library Management System</h1>
+    <p>Welcome Admin</p>
+</header>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="#">Books</a>
+    <a href="#">Students</a>
+    <a href="#">Issue Book</a>
+    <a href="#">Return Book</a>
+    <a href="index.html">Logout</a>
+</nav>
+
+<div class="content">
+    <h2>Dashboard</h2>
+    <p>You have successfully logged in.</p>
+
+    <div class="cards">
+        <div class="card">
+            <h3>📚 Books</h3>
+            <p>Manage library books easily.</p>
+        </div>
+
+        <div class="card">
+            <h3>👩‍🎓 Students</h3>
+            <p>Manage student records.</p>
+        </div>
+
+        <div class="card">
+            <h3>🔄 Issue / Return</h3>
+            <p>Issue and return books smoothly.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    © 2026 Library Management System | Designed by Sayali
+</footer>
+
+</body>
+</html>
