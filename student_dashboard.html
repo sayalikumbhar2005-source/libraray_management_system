@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Dashboard</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 30px;
+            text-align: center;
+        }
+        .card {
+            display: inline-block;
+            width: 220px;
+            padding: 20px;
+            margin: 15px;
+            background: white;
+            box-shadow: 0 0 10px #ccc;
+            border-radius: 5px;
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        button {
+            padding: 8px 15px;
+            background: #2c3e50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Student Dashboard</h1>
+    <p>Welcome to Library Management System</p>
+</header>
+
+<nav>
+    <a href="#">View Books</a>
+    <a href="#">Issued Books</a>
+    <a href="#" onclick="logout()">Logout</a>
+</nav>
+
+<div class="content">
+    <div class="card">
+        <h3>Available Books</h3>
+        <p>View all library books</p>
+    </div>
+
+    <div class="card">
+        <h3>Issued Books</h3>
+        <p>Check your issued books</p>
+    </div>
+
+    <div class="card">
+        <h3>Profile</h3>
+        <p>Student account details</p>
+    </div>
+</div>
+
+<footer>
+    © 2026 Library Management System
+</footer>
+
+<script>
+    function logout() {
+        alert("Logged out successfully");
+        window.location.href = "students.html";
+    }
+</script>
+
+</body>
+</html>
