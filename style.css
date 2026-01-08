@@ -8,9 +8,7 @@
 /* ===== Body Background ===== */
 body {
     
-    font-family: Arial, sans-serif;
-    background: #f3e8ff;   /* light purple */
-    min-height: 100vh;
+        background: red !important;
 
 
 }
